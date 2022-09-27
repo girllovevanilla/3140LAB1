@@ -1,0 +1,54 @@
+Your environment has been set up for using Node.js 18.9.0 (x64) and npm.
+
+//Create a folder named "CISC3140"
+C:\Users\zhenx>mkdir CISC3140
+
+//Enter the folder 
+C:\Users\zhenx>cd CISC3140
+
+//Create a file named testing.txt inside folder CISC3140
+C:\Users\zhenx\CISC3140>echo "TESTING FILE ADD TO FOLDER" > testing.txt
+
+//View folder contents
+C:\Users\zhenx\CISC3140>dir
+ Volume in drive C is OS
+ Volume Serial Number is B6F0-64A8
+
+ Directory of C:\Users\zhenx\CISC3140
+
+09/26/2022  10:36 PM    <DIR>          .
+09/26/2022  10:35 PM    <DIR>          ..
+09/26/2022  10:36 PM                31 testing.txt
+               1 File(s)             31 bytes
+               2 Dir(s)  629,422,555,136 bytes free
+
+
+
+//Copy the file and move to another location
+C:\Users\zhenx\CISC3140>copy testing.txt C:\Users\zhenx\OneDrive\Desktop
+        1 file(s) copied.
+
+//Add the java program from task 4 to the folder
+C:\Users\zhenx\CISC3140>xcopy "C:\Users\zhenx\OneDrive\Desktop\DueDateCalculator\src" "C:\Users\zhenx\CISC3140"
+C:\Users\zhenx\OneDrive\Desktop\DueDateCalculator\src\Main.java
+1 File(s) copied
+
+//Compile the code
+C:\Users\zhenx\CISC3140>javac Main.java
+//Run the program
+C:\Users\zhenx\CISC3140>java Main
+//Below are the results after running the java file
+Today is:
+2022-09-26
+
+Lab 1 due 2022-09-28
+You still have: 0 month 2 days
+----------------------------
+Lab 2 due 2022-10-26
+You still have: 1 month 0 days
+----------------------------
+Lab 3 due 2022-11-23
+You still have: 1 month 28 days
+----------------------------
+Lab 4 due 2022-11-23
+You still have: 2 month 11 days
