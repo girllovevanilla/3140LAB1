@@ -37,7 +37,7 @@ C:\Users\zhenx\OneDrive\Desktop\DueDateCalculator\src\Main.java
 C:\Users\zhenx\CISC3140>javac Main.java
 //Run the program
 C:\Users\zhenx\CISC3140>java Main
-//Below are the results after running the java file
+//Below are the results after running the java file. those result will change based on what data today is and the due day.
 Today is:
 2022-09-26
 
